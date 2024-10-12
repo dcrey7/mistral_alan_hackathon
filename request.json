@@ -1,0 +1,13 @@
+{
+  "instances": [
+    {
+      "content": "Question: What causes you to get ringworm?"
+    }
+  ],
+  "parameters": {
+    "temperature": 0,
+    "maxOutputTokens": 256,
+    "topK": 40,
+    "topP": 0.95
+  }
+}
