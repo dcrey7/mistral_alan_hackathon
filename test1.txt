@@ -1,5 +1,0 @@
-curl -X POST \
-     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-     -H "Content-Type: application/json; charset=utf-8" \
-     -d @request.json \
-     "https://us-central1-aiplatform.googleapis.com/v1/projects/1019371749567/locations/us-central1/publishers/google/models/medlm-medium:predict"
